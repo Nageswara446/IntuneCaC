@@ -1,0 +1,56 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies/$entity",
+    "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+    "roleScopeTagIds":  [
+                            "8",
+                            "9"
+                        ],
+    "id":  "74e7657d-af6a-45f7-814c-7eb1f1765ffd",
+    "createdDateTime":  "2025-10-31T07:31:41.5407256Z",
+    "description":  "URM-AVC-WIN-D-CMP-AllCloudPCs-SCOPETAGSss",
+    "lastModifiedDateTime":  "2025-11-17T09:09:46.2014743Z",
+    "displayName":  "URM-AVC-WIN-D-CMP-AllCloudPCs-SCOPETAGSss",
+    "version":  17,
+    "passwordRequired":  false,
+    "passwordBlockSimple":  false,
+    "passwordRequiredToUnlockFromIdle":  false,
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumCharacterSetCount":  null,
+    "passwordRequiredType":  "deviceDefault",
+    "passwordPreviousPasswordBlockCount":  null,
+    "requireHealthyDeviceReport":  false,
+    "osMinimumVersion":  "10.0.26100.0",
+    "osMaximumVersion":  null,
+    "mobileOsMinimumVersion":  null,
+    "mobileOsMaximumVersion":  null,
+    "earlyLaunchAntiMalwareDriverEnabled":  false,
+    "bitLockerEnabled":  true,
+    "secureBootEnabled":  false,
+    "codeIntegrityEnabled":  true,
+    "memoryIntegrityEnabled":  false,
+    "kernelDmaProtectionEnabled":  false,
+    "virtualizationBasedSecurityEnabled":  false,
+    "firmwareProtectionEnabled":  false,
+    "storageRequireEncryption":  false,
+    "activeFirewallRequired":  false,
+    "defenderEnabled":  false,
+    "defenderVersion":  null,
+    "signatureOutOfDate":  false,
+    "rtpEnabled":  false,
+    "antivirusRequired":  false,
+    "antiSpywareRequired":  false,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "configurationManagerComplianceRequired":  false,
+    "tpmRequired":  false,
+    "deviceCompliancePolicyScript":  null,
+    "validOperatingSystemBuildRanges":  [
+
+                                        ],
+    "wslDistributions":  [
+
+                         ]
+}
+

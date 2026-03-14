@@ -1,0 +1,6 @@
+﻿---------------- Start 2025-11-14 06:56:26 ----------------
+[2025-11-14 06:56:27Z] Copied policy: C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\backup\14-Nov-2025_06-47-43_Releasec22fb46ba317455b8146fb1a78ee984d\compliance\f4743118-fd4b-4c6e-ab83-b48126c5f793.json to C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\backup\14-Nov-2025_06-56-26_Releasedfde27e360d44f9b813464e98fcbe487\compliance
+[2025-11-14 06:56:27Z] No assignments found for PolicyGuid=f4743118-fd4b-4c6e-ab83-b48126c5f793
+[2025-11-14 06:56:27Z] Copied policy: C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\backup\14-Nov-2025_06-47-43_Releasec22fb46ba317455b8146fb1a78ee984d\configuration\8a812a8a-c8e7-44b6-9fcf-8219d189dca9.json to C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\backup\14-Nov-2025_06-56-26_Releasedfde27e360d44f9b813464e98fcbe487\configuration
+[2025-11-14 06:56:27Z] No assignments found for PolicyGuid=8a812a8a-c8e7-44b6-9fcf-8219d189dca9
+---------------- End 2025-11-14 06:56:27 ----------------

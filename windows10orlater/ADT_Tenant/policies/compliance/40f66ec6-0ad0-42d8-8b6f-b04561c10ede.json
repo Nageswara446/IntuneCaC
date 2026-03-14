@@ -1,0 +1,55 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies/$entity",
+    "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+    "roleScopeTagIds":  [
+                            "8"
+                        ],
+    "id":  "40f66ec6-0ad0-42d8-8b6f-b04561c10ede",
+    "createdDateTime":  "2025-09-09T06:55:26.1499133Z",
+    "description":  "ADT exported policy ID 40f66ec6-0ad0-42d8-8b6f-b04561c10ede - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.689 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Releasedfde27e360d44f9b813464e98fcbe487. To rollback use - https://github.developer.allianz.io/WorkplaceServices/WPS_INTUNE_CaC/releases/download/Release-v1.0.688/f4743118-fd4b-4c6e-ab83-b48126c5f793.json .\n\nADT exported policy ID 40f66ec6-0ad0-42d8-8b6f-b04561c10ede - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.687 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Releasec22fb46ba317455b8146fb1a78ee984d. To rollback use - https://github.developer.allianz.io/WorkplaceServices/WPS_INTUNE_CaC/releases/download/Release-v1.0.686/f4743118-fd4b-4c6e-ab83",
+    "lastModifiedDateTime":  "2025-11-14T07:06:38.3145719Z",
+    "displayName":  "CaC-URM-Test-Policy-Prod",
+    "version":  10,
+    "passwordRequired":  false,
+    "passwordBlockSimple":  false,
+    "passwordRequiredToUnlockFromIdle":  false,
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumCharacterSetCount":  null,
+    "passwordRequiredType":  "deviceDefault",
+    "passwordPreviousPasswordBlockCount":  null,
+    "requireHealthyDeviceReport":  false,
+    "osMinimumVersion":  null,
+    "osMaximumVersion":  null,
+    "mobileOsMinimumVersion":  null,
+    "mobileOsMaximumVersion":  null,
+    "earlyLaunchAntiMalwareDriverEnabled":  false,
+    "bitLockerEnabled":  true,
+    "secureBootEnabled":  true,
+    "codeIntegrityEnabled":  true,
+    "memoryIntegrityEnabled":  false,
+    "kernelDmaProtectionEnabled":  false,
+    "virtualizationBasedSecurityEnabled":  false,
+    "firmwareProtectionEnabled":  false,
+    "storageRequireEncryption":  false,
+    "activeFirewallRequired":  false,
+    "defenderEnabled":  false,
+    "defenderVersion":  null,
+    "signatureOutOfDate":  false,
+    "rtpEnabled":  false,
+    "antivirusRequired":  false,
+    "antiSpywareRequired":  false,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "configurationManagerComplianceRequired":  true,
+    "tpmRequired":  false,
+    "deviceCompliancePolicyScript":  null,
+    "validOperatingSystemBuildRanges":  [
+
+                                        ],
+    "wslDistributions":  [
+
+                         ]
+}
+

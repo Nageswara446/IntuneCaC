@@ -1,0 +1,189 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-08-01T08:23:29.4821871Z",
+    "creationSource":  null,
+    "description":  "Version 0.3, DR, Renamed Intune configuration added new FUT Entra goup. AZSuisse= AZCH02\nVersion 0.1 Created by DR Edge OE specific configuration AVC and AMC\nDuplicate Policy for Production Readiness by NSS 26.03.2025",
+    "lastModifiedDateTime":  "2025-10-21T11:48:28.1674257Z",
+    "name":  "URM-WPS-WIN-DCP-Edge-OEBase-USER-AZCH02",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  9,
+    "technologies":  "mdm",
+    "id":  "34232ae9-077e-4677-a874-faee56689e28",
+    "templateReference":  {
+                              "templateId":  "",
+                              "templateFamily":  "none",
+                              "templateDisplayName":  null,
+                              "templateDisplayVersion":  null
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u002734232ae9-077e-4677-a874-faee56689e28\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_accountmanagement_userprofilemanagement_deletionpolicy",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_accountmanagement_userprofilemanagement_deletionpolicy_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "1",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_accountmanagement_userprofilemanagement_enableprofilemanager",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_accountmanagement_userprofilemanagement_enableprofilemanager_false",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "2",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_accountmanagement_userprofilemanagement_profileinactivitythreshold",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  30
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "3",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_accountmanagement_userprofilemanagement_storagecapacitystartdeletion",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  25
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "4",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_accountmanagement_userprofilemanagement_storagecapacitystopdeletion",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  50
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "5",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationdefaults_defaultassociationsconfiguration",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "simpleSettingValue":  {
+                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  ""
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "6",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationdefaults_enableappurihandlers",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_applicationdefaults_enableappurihandlers_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "7",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_homepagelocation_homepagelocation",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "auditRuleInformation":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "https://allianzms.sharepoint.com/sites/ch0012-connect-az-suisse"
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "8",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls_restoreonstartupurlsdesc",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "auditRuleInformation":  null,
+                                                                                                 "simpleSettingCollectionValue":  [
+                                                                                                                                      {
+                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                                          "settingValueTemplateReference":  null,
+                                                                                                                                          "value":  "https://allianzms.sharepoint.com/sites/ch0012-connect-az-suisse"
+                                                                                                                                      },
+                                                                                                                                      {
+                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                                          "settingValueTemplateReference":  null,
+                                                                                                                                          "value":  "https://allianzms.sharepoint.com/sites/DE1214-connect-az-technology-workplace-services-avc/SitePages/Welcome-to-AVC-Cloud!.aspx?ga=1"
+                                                                                                                                      }
+                                                                                                                                  ]
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

@@ -1,0 +1,64 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies/$entity",
+    "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+    "roleScopeTagIds":  [
+                            "23"
+                        ],
+    "id":  "602fa3c3-ad07-426c-8000-b52c75d2b73f",
+    "createdDateTime":  "2025-11-17T12:07:18.4937659Z",
+    "description":  "ADT exported policy ID 291dbaae-2dcd-433f-aa3a-966adf26c89b - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.703 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Release0d0554cc8aea4ca69ac4274f9a68a465 .\n\nTest compliance policy for MS test workshop\nWithout Bitlocker",
+    "lastModifiedDateTime":  "2025-11-17T12:07:18.4937659Z",
+    "displayName":  "CaC-URM-AMC-W-MS-Test-Compliance-1",
+    "version":  1,
+    "passwordRequired":  false,
+    "passwordBlockSimple":  false,
+    "passwordRequiredToUnlockFromIdle":  false,
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumCharacterSetCount":  null,
+    "passwordRequiredType":  "deviceDefault",
+    "passwordPreviousPasswordBlockCount":  null,
+    "requireHealthyDeviceReport":  false,
+    "osMinimumVersion":  null,
+    "osMaximumVersion":  null,
+    "mobileOsMinimumVersion":  null,
+    "mobileOsMaximumVersion":  null,
+    "earlyLaunchAntiMalwareDriverEnabled":  false,
+    "bitLockerEnabled":  false,
+    "secureBootEnabled":  false,
+    "codeIntegrityEnabled":  false,
+    "memoryIntegrityEnabled":  false,
+    "kernelDmaProtectionEnabled":  false,
+    "virtualizationBasedSecurityEnabled":  false,
+    "firmwareProtectionEnabled":  false,
+    "storageRequireEncryption":  false,
+    "activeFirewallRequired":  true,
+    "defenderEnabled":  true,
+    "defenderVersion":  null,
+    "signatureOutOfDate":  true,
+    "rtpEnabled":  true,
+    "antivirusRequired":  true,
+    "antiSpywareRequired":  true,
+    "deviceThreatProtectionEnabled":  true,
+    "deviceThreatProtectionRequiredSecurityLevel":  "medium",
+    "configurationManagerComplianceRequired":  false,
+    "tpmRequired":  true,
+    "deviceCompliancePolicyScript":  null,
+    "validOperatingSystemBuildRanges":  [
+                                            {
+                                                "description":  "Windows 11 22H2",
+                                                "lowestVersion":  "10.0.22621.674",
+                                                "highestVersion":  "11.0.0.0"
+                                            },
+                                            {
+                                                "description":  "Windows 10 22H2",
+                                                "lowestVersion":  "10.0.19045.2788",
+                                                "highestVersion":  "11000.0.0.0"
+                                            }
+                                        ],
+    "wslDistributions":  [
+
+                         ]
+}
+

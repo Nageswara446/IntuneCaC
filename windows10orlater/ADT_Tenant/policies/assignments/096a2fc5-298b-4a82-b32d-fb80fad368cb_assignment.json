@@ -1,0 +1,47 @@
+﻿[
+    {
+        "id":  "096a2fc5-298b-4a82-b32d-fb80fad368cb_5857fca9-67bf-4939-9ccc-5ffa0d4359b2",
+        "source":  "direct",
+        "sourceId":  "096a2fc5-298b-4a82-b32d-fb80fad368cb",
+        "target":  {
+                       "@odata.type":  "#microsoft.graph.groupAssignmentTarget",
+                       "deviceAndAppManagementAssignmentFilterId":  null,
+                       "deviceAndAppManagementAssignmentFilterType":  "none",
+                       "groupId":  "5857fca9-67bf-4939-9ccc-5ffa0d4359b2"
+                   }
+    },
+    {
+        "id":  "096a2fc5-298b-4a82-b32d-fb80fad368cb_1132645f-bf4f-4baf-96d1-8b1f4300afbc",
+        "source":  "direct",
+        "sourceId":  "096a2fc5-298b-4a82-b32d-fb80fad368cb",
+        "target":  {
+                       "@odata.type":  "#microsoft.graph.exclusionGroupAssignmentTarget",
+                       "deviceAndAppManagementAssignmentFilterId":  null,
+                       "deviceAndAppManagementAssignmentFilterType":  "none",
+                       "groupId":  "1132645f-bf4f-4baf-96d1-8b1f4300afbc"
+                   }
+    },
+    {
+        "id":  "096a2fc5-298b-4a82-b32d-fb80fad368cb_96bdd007-53d2-42d3-bf9e-7d007b288b4b",
+        "source":  "direct",
+        "sourceId":  "096a2fc5-298b-4a82-b32d-fb80fad368cb",
+        "target":  {
+                       "@odata.type":  "#microsoft.graph.groupAssignmentTarget",
+                       "deviceAndAppManagementAssignmentFilterId":  null,
+                       "deviceAndAppManagementAssignmentFilterType":  "none",
+                       "groupId":  "96bdd007-53d2-42d3-bf9e-7d007b288b4b"
+                   }
+    },
+    {
+        "id":  "096a2fc5-298b-4a82-b32d-fb80fad368cb_78b89b5c-3784-419a-873a-f9ab6391b24c",
+        "source":  "direct",
+        "sourceId":  "096a2fc5-298b-4a82-b32d-fb80fad368cb",
+        "target":  {
+                       "@odata.type":  "#microsoft.graph.exclusionGroupAssignmentTarget",
+                       "deviceAndAppManagementAssignmentFilterId":  null,
+                       "deviceAndAppManagementAssignmentFilterType":  "none",
+                       "groupId":  "78b89b5c-3784-419a-873a-f9ab6391b24c"
+                   }
+    }
+]
+

@@ -1,0 +1,131 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-10-03T08:46:35.7616043Z",
+    "creationSource":  "Migration_DI_da625e7c-2653-40d0-8537-f3014fd4d870",
+    "description":  "ADT exported policy ID f8140da6-e64e-4a1f-b625-4635b2459cd5 - and git path - https://github.developer.allianz.io/raw/WorkplaceServices/WPS_INTUNE_CaC/dev/windows10orlater/ADT_Tenant/policies/configuration/f8140da6-e64e-4a1f-b625-4635b2459cd5.json",
+    "lastModifiedDateTime":  "2025-11-28T16:54:46.1007865Z",
+    "name":  "URM-AMC-W-DeviceControl",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  5,
+    "technologies":  "mdm,microsoftSense",
+    "id":  "09d3ee80-2412-403d-955c-34fbab1d6983",
+    "templateReference":  {
+                              "templateId":  "0f2034c6-3cd6-4ee1-bd37-f3c0693e9548_1",
+                              "templateFamily":  "endpointSecurityAttackSurfaceReduction",
+                              "templateDisplayName":  "Device Control",
+                              "templateDisplayVersion":  "Version 1"
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u002709d3ee80-2412-403d-955c-34fbab1d6983\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "3e830855-161b-495d-833c-a28f004ce677"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_defender_allowfullscanremovabledrivescanning_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "9ffa57a4-f4c7-4832-8f72-03c86489149f",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "1",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_connectivity_allowusbconnection",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "bc92aa99-0993-4c65-a005-d5e5e6701486"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_connectivity_allowusbconnection_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "0859f615-a7f0-4043-b559-2ec927748de2",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "2",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_defender_configuration_devicecontrolenabled",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "358ec504-d488-46b9-bbb0-f020763d468a"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_defender_configuration_devicecontrolenabled_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "05bcff50-f939-49fa-9671-f77f51fe0fe6",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "3",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_bluetooth_allowpromptedproximalconnections",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "f1015b71-30b9-4933-a4bf-0ff6068a6d55"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_bluetooth_allowpromptedproximalconnections_1",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "a6867af2-5a01-4e8f-806a-35c590993db8",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "4",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "60e06b54-bea1-40f1-b2e1-b4c8bdfa4bd6"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_dmaguard_deviceenumerationpolicy_2",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "531c5701-6ba0-442a-8a3d-326282e96b82",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

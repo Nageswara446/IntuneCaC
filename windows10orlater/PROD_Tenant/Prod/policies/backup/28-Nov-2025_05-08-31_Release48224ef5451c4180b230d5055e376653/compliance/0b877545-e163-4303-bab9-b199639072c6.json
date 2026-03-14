@@ -1,0 +1,55 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceCompliancePolicies/$entity",
+    "@odata.type":  "#microsoft.graph.windows10CompliancePolicy",
+    "roleScopeTagIds":  [
+                            "23"
+                        ],
+    "id":  "0b877545-e163-4303-bab9-b199639072c6",
+    "createdDateTime":  "2025-11-28T04:55:52.9166163Z",
+    "description":  "ADT exported policy ID 68d7f29a-8d48-40cc-87c3-6ef1445081b4 - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.788 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Release38b77b48a5bb4735a6a9883b37deb876 .\n\n250409: Removed Core Isolation and Secure Boot as this configuration requries a Reboot; Feedback open from MS how to handle this in W365\n250327: Updated Compliance Policy for AVC based on best-practices MS/ACN",
+    "lastModifiedDateTime":  "2025-11-28T05:04:25.6434708Z",
+    "displayName":  "URM-AVC-WIN-D-CMP-AllCloudPCs-Test-XLR",
+    "version":  2,
+    "passwordRequired":  false,
+    "passwordBlockSimple":  false,
+    "passwordRequiredToUnlockFromIdle":  false,
+    "passwordMinutesOfInactivityBeforeLock":  null,
+    "passwordExpirationDays":  null,
+    "passwordMinimumLength":  null,
+    "passwordMinimumCharacterSetCount":  null,
+    "passwordRequiredType":  "deviceDefault",
+    "passwordPreviousPasswordBlockCount":  null,
+    "requireHealthyDeviceReport":  false,
+    "osMinimumVersion":  "10.0.26100.0",
+    "osMaximumVersion":  null,
+    "mobileOsMinimumVersion":  null,
+    "mobileOsMaximumVersion":  null,
+    "earlyLaunchAntiMalwareDriverEnabled":  false,
+    "bitLockerEnabled":  false,
+    "secureBootEnabled":  false,
+    "codeIntegrityEnabled":  true,
+    "memoryIntegrityEnabled":  false,
+    "kernelDmaProtectionEnabled":  false,
+    "virtualizationBasedSecurityEnabled":  false,
+    "firmwareProtectionEnabled":  false,
+    "storageRequireEncryption":  false,
+    "activeFirewallRequired":  true,
+    "defenderEnabled":  false,
+    "defenderVersion":  null,
+    "signatureOutOfDate":  false,
+    "rtpEnabled":  false,
+    "antivirusRequired":  true,
+    "antiSpywareRequired":  true,
+    "deviceThreatProtectionEnabled":  false,
+    "deviceThreatProtectionRequiredSecurityLevel":  "unavailable",
+    "configurationManagerComplianceRequired":  false,
+    "tpmRequired":  true,
+    "deviceCompliancePolicyScript":  null,
+    "validOperatingSystemBuildRanges":  [
+
+                                        ],
+    "wslDistributions":  [
+
+                         ]
+}
+

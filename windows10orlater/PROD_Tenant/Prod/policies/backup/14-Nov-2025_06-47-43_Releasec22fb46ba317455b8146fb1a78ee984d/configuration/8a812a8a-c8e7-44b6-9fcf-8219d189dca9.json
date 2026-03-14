@@ -1,0 +1,21 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type":  "#microsoft.graph.windowsHealthMonitoringConfiguration",
+    "id":  "8a812a8a-c8e7-44b6-9fcf-8219d189dca9",
+    "lastModifiedDateTime":  "2025-11-14T06:15:53.4842146Z",
+    "roleScopeTagIds":  [
+                            "23"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2025-11-14T06:15:53.4842146Z",
+    "description":  "ADT exported policy ID d7bb637f-0c28-47a4-bc48-403ebe45ba1b - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.685 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Release232ea61fe0fa4c358a8207819eb5d272 .\n\nURM-Windows Health Monitoring-Test-Policy-Prod",
+    "displayName":  "CaC-URM-Windows Health Monitoring-Test-Policy-Prod",
+    "version":  1,
+    "allowDeviceHealthMonitoring":  "enabled",
+    "configDeviceHealthMonitoringScope":  "bootPerformance,windowsUpdates",
+    "configDeviceHealthMonitoringCustomScope":  null
+}
+

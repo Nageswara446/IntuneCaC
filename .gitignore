@@ -1,0 +1,7 @@
+**/import-policy-config.json
+**/export-policy-config.json
+**/rollback-policy-config.json
+**/backup-policy-config.json
+**/delete-policy-config.json
+**/rollback-deletion-config.json
+**/config.json

@@ -1,0 +1,54 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-08-06T09:29:54.3963731Z",
+    "creationSource":  null,
+    "description":  "Version 0.3, DR, Renamed Intune configuration added new FUT Entra goup. AZIE \u003e AZIE02\nVersion 0.1 Created by DR Edge OE specific configuration AVC and AMC\nDuplicate Policy for Production Readiness by NSS 26.03.2025",
+    "lastModifiedDateTime":  "2025-08-06T09:29:54.3963731Z",
+    "name":  "URM-WPS-WIN-DCP-Edge-OEBase-USER-AZIE02",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  1,
+    "technologies":  "mdm",
+    "id":  "5d17d2fd-c5e0-4cd2-bfe4-514bff4bc50e",
+    "templateReference":  {
+                              "templateId":  "",
+                              "templateFamily":  "none",
+                              "templateDisplayName":  null,
+                              "templateDisplayVersion":  null
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00275d17d2fd-c5e0-4cd2-bfe4-514bff4bc50e\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls_1",
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge~startup_restoreonstartupurls_restoreonstartupurlsdesc",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "auditRuleInformation":  null,
+                                                                                                 "simpleSettingCollectionValue":  [
+                                                                                                                                      {
+                                                                                                                                          "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                                          "settingValueTemplateReference":  null,
+                                                                                                                                          "value":  "https://allianzms.sharepoint.com/sites/IE0001-connect-az-ireland"
+                                                                                                                                      }
+                                                                                                                                  ]
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

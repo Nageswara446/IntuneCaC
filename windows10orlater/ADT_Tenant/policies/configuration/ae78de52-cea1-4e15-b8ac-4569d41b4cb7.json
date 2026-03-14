@@ -1,0 +1,13 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/groupPolicyConfigurations/$entity",
+    "createdDateTime":  "2023-11-15T14:34:15.3017529Z",
+    "displayName":  "AMC-Edge-favorites-Test",
+    "description":  "Configure Edge favorites",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "policyConfigurationIngestionType":  "unknown",
+    "id":  "ae78de52-cea1-4e15-b8ac-4569d41b4cb7",
+    "lastModifiedDateTime":  "2023-11-17T12:01:03.5754684Z"
+}
+

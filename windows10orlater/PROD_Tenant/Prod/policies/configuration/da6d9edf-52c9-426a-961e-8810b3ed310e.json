@@ -1,0 +1,57 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-11-27T11:13:08.8935187Z",
+    "creationSource":  null,
+    "description":  "ADT exported policy ID a3897fdd-b267-4cb6-860d-4be55f61e960 - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.761 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Releaseddbb476808174b0db0fbbcd8fa1e5a91 .\n\nADT exported policy ID a3897fdd-b267-4cb6-860d-4be55f61e960 - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.757 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Release10bd03dae16a4a4db8a6505027de975e .\n\n",
+    "lastModifiedDateTime":  "2025-11-27T11:17:46.1112378Z",
+    "name":  "CaC-TEST-XLR-WIN-D-CIP-SUP-B4-APPS-Aditya(WDAC)",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "23"
+                        ],
+    "settingCount":  1,
+    "technologies":  "mdm",
+    "id":  "da6d9edf-52c9-426a-961e-8810b3ed310e",
+    "templateReference":  {
+                              "templateId":  "d3849ba8-bf95-467c-9640-aa2334eae9e3_1",
+                              "templateFamily":  "endpointSecurityApplicationControl",
+                              "templateDisplayName":  "App Control for Business",
+                              "templateDisplayVersion":  "Version 1"
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027da6d9edf-52c9-426a-961e-8810b3ed310e\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationcontrolv2_buildoptions",
+                                                 "auditRuleInformation":  null,
+                                                 "settingInstanceTemplateReference":  {
+                                                                                          "settingInstanceTemplateId":  "abc5b8cd-63a0-4a1c-a34d-da84d9a93f62"
+                                                                                      },
+                                                 "choiceSettingValue":  {
+                                                                            "value":  "device_vendor_msft_policy_config_applicationcontrolv2_buildoptions_upload_xml_selected",
+                                                                            "settingValueTemplateReference":  {
+                                                                                                                  "settingValueTemplateId":  "8e9847a2-8a1b-4168-a5fc-4a99cd8cd480",
+                                                                                                                  "useTemplateDefault":  false
+                                                                                                              },
+                                                                            "children":  [
+                                                                                             {
+                                                                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                                                                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_applicationcontrolv2_xmlupload",
+                                                                                                 "settingInstanceTemplateReference":  null,
+                                                                                                 "auditRuleInformation":  null,
+                                                                                                 "simpleSettingValue":  {
+                                                                                                                            "@odata.type":  "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                                                                                                                            "settingValueTemplateReference":  null,
+                                                                                                                            "value":  "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\r\n\u003cSiPolicy xmlns=\"urn:schemas-microsoft-com:sipolicy\" PolicyType=\"Supplemental Policy\"\u003e\r\n  \u003cVersionEx\u003e10.0.0.0\u003c/VersionEx\u003e\r\n  \u003cPlatformID\u003e{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}\u003c/PlatformID\u003e\r\n  \u003cRules\u003e\r\n    \u003cRule\u003e\r\n      \u003cOption\u003eEnabled:Unsigned System Integrity Policy\u003c/Option\u003e\r\n    \u003c/Rule\u003e\r\n    \u003cRule\u003e\r\n      \u003cOption\u003eEnabled:Advanced Boot Options Menu\u003c/Option\u003e\r\n    \u003c/Rule\u003e\r\n    \u003cRule\u003e\r\n      \u003cOption\u003eRequired:Enforce Store Applications\u003c/Option\u003e\r\n    \u003c/Rule\u003e\r\n    \u003cRule\u003e\r\n      \u003cOption\u003eEnabled:UMCI\u003c/Option\u003e\r\n    \u003c/Rule\u003e\r\n  \u003c/Rules\u003e\r\n  \u003c!--EKUS--\u003e\r\n  \u003cEKUs /\u003e\r\n  \u003c!--File Rules--\u003e\r\n  \u003cFileRules\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_1\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport.dll Hash Sha1\" Hash=\"B60C9748F0D0BDA2E404A7A853E7D57502BB0FCD\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_2\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport.dll Hash Sha256\" Hash=\"692816BF4C3E69FD76BD1CB1C4BB1C6DCC1A6D4ECBBED687B3253ECB5422343C\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_3\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport.dll Hash Page Sha1\" Hash=\"4F31CA55119335483CC396156A3AFEBE5F8E51C3\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_4\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport.dll Hash Page Sha256\" Hash=\"A84F43017A64B9EA3196E4DDC19BEEDC09A86CE2A7FB9672856D064F3F77C5DF\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_5\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport64.dll Hash Sha1\" Hash=\"8BA8132B3B31FDD17196AB61D5CA82BD6EC79333\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_6\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport64.dll Hash Sha256\" Hash=\"5E90C53C30FEAB862BED839C781130DC669EB7013DEB02558F94B06113D8F7D5\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_7\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport64.dll Hash Page Sha1\" Hash=\"DF886FBC4E558B6FE482C5F87DD31D82794D3A63\" /\u003e\r\n    \u003cAllow ID=\"ID_ALLOW_A_8\" FriendlyName=\"15150_IBM_iAccess_Client_Solutions\\MSAASupport64\\MSAASupport64.dll Hash Page Sha256\" Hash=\"A9B9BDC5A1374D605B2341C91956E783214AD7B7410CB2F10EF5AB2336891D4D\" /\u003e\r\n  \u003c/FileRules\u003e\r\n  \u003c!--Signers--\u003e\r\n  \u003cSigners /\u003e\r\n  \u003c!--Driver Signing Scenarios--\u003e\r\n  \u003cSigningScenarios\u003e\r\n    \u003cSigningScenario Value=\"131\" ID=\"ID_SIGNINGSCENARIO_DRIVERS_1\" FriendlyName=\"Auto generated policy on 10-01-2025\"\u003e\r\n      \u003cProductSigners /\u003e\r\n    \u003c/SigningScenario\u003e\r\n    \u003cSigningScenario Value=\"12\" ID=\"ID_SIGNINGSCENARIO_WINDOWS\" FriendlyName=\"Auto generated policy on 10-01-2025\"\u003e\r\n      \u003cProductSigners\u003e\r\n        \u003cFileRulesRef\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_1\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_2\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_3\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_4\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_5\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_6\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_7\" /\u003e\r\n          \u003cFileRuleRef RuleID=\"ID_ALLOW_A_8\" /\u003e\r\n        \u003c/FileRulesRef\u003e\r\n      \u003c/ProductSigners\u003e\r\n    \u003c/SigningScenario\u003e\r\n  \u003c/SigningScenarios\u003e\r\n  \u003cUpdatePolicySigners /\u003e\r\n  \u003cCiSigners /\u003e\r\n  \u003cHvciOptions\u003e0\u003c/HvciOptions\u003e\r\n  \u003cSettings /\u003e\r\n  \u003cBasePolicyID\u003e{67DDE2A6-C92D-481A-A040-8F3584676703}\u003c/BasePolicyID\u003e\r\n  \u003cPolicyID\u003e{A39C7222-B8DC-4D5C-A9EC-65F456E71268}\u003c/PolicyID\u003e\r\n\u003c/SiPolicy\u003e"
+                                                                                                                        }
+                                                                                             }
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

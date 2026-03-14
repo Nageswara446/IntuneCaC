@@ -1,0 +1,42 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-08-06T09:29:40.7060163Z",
+    "creationSource":  null,
+    "description":  "TEST-WPS-WIN-DCP-IESetting-USER-AZAU02",
+    "lastModifiedDateTime":  "2025-11-17T12:17:52.8736801Z",
+    "name":  "URM-TEST-WPS-WIN-DCP-IESetting-USER-AZAU02",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  1,
+    "technologies":  "mdm",
+    "id":  "fe3afe27-9641-4f76-94b9-b39f6a5f41b4",
+    "templateReference":  {
+                              "templateId":  "",
+                              "templateFamily":  "none",
+                              "templateDisplayName":  null,
+                              "templateDisplayVersion":  null
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027fe3afe27-9641-4f76-94b9-b39f6a5f41b4\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_microsoft_edgev103~policy~microsoft_edge_originagentclusterdefaultenabled",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_microsoft_edgev103~policy~microsoft_edge_originagentclusterdefaultenabled_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

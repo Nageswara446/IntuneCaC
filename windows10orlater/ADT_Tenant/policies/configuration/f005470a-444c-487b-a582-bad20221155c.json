@@ -1,0 +1,23 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations/$entity",
+    "@odata.type":  "#microsoft.graph.windows81TrustedRootCertificate",
+    "id":  "f005470a-444c-487b-a582-bad20221155c",
+    "lastModifiedDateTime":  "2025-11-28T03:02:26.5303793Z",
+    "roleScopeTagIds":  [
+                            "11",
+                            "8",
+                            "9"
+                        ],
+    "supportsScopeTags":  true,
+    "deviceManagementApplicabilityRuleOsEdition":  null,
+    "deviceManagementApplicabilityRuleOsVersion":  null,
+    "deviceManagementApplicabilityRuleDeviceMode":  null,
+    "createdDateTime":  "2025-11-20T12:00:42.1662874Z",
+    "description":  null,
+    "displayName":  "TEST-XLR-Aditya-TrustedCertificate-2.0",
+    "version":  5,
+    "trustedRootCertificate":  "MIIEHzCCAwegAwIBAgIEEANjLTANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJERTEQMA4GA1UECgwHQWxsaWFuejEkMCIGA1UEAwwbQWxsaWFueiBJbmZyYXN0cnVjdHVyZSBDQSBWMB4XDTI1MDUyMTA5MDE0OVoXDTI3MDUyMTA5MDE0OVowRzELMAkGA1UEBhMCREUxEDAOBgNVBAoMB0FsbGlhbnoxJjAkBgNVBAMMHUFsbGlhbnogQ29zaSBQcm9kIEVudmlyb25tZW50MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCXzXj1v03NBq1w7onVnwZN85EvCJE17JMtzwTgEDZba0HvUbn8+b5SCKIpUT3Y4hFwfMNNoV9Lqnb1RrYsjbvQBO4O/xZkQJQo+s4UUM52CegtYu2DuRQnlIsTaVO45AGhbKToU/X+mFC7nooN/779EDOh6q+ccf4A1Dh4Wqm0kO+selmyH0ovsSxNWmguycBzloaq6XfdCkrxEzA2eb20hsiZQWw4HRH0GKw6Z6o4bkDv1KQ4aO2nywrfG8+1yg9FfBpC+e7sXL12ANaevqZETUos3/nen+MAaRPqWn0CNyXcAGUjUaINaXuHVlFn2kQ0LAmGES4us0sZ6HoPYxwIDAQABo4IBEzCCAQ8wHQYDVR0OBBYEFHR8NWhnpaN+6qUjSf09PjAf7FfWMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAbBgkrBgEEAYI3FQoEDjAMMAoGCCsGAQUFBwMDMDsGCCsGAQUFBwEBBC8wLTArBggrBgEFBQcwAYYfaHR0cDovL3Jvb3RjYS5hbGxpYW56LmNvbS9vY3NwLzBvBgNVHR8EaDBmMDGgL6AthitodHRwOi8vcm9vdGNhLmFsbGlhbnouY29tL2NybC9JbmZyYUNBLVYuY3JsMDGgL6AthitodHRwOi8vcm9vdGNhLmluZC5hbGxpYW56L2NybC9JbmZyYUNBLVYuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQBn1D6HG3pEafptST0yVWTlBFe15/1iOq8V2gsyc44dJpfUVGzLN6OvZqYTObBrBLqkfZEQpq7pZR/Ow4pAYCaLGwUHbysOAYqLoaKoTuPPr7EoL+BUm0pu8/avuQTHQammIETFw07E3Yd9iXwvcRb/IcmQWoepbv5vUxle3f6FyGEr8BJCy72C3x07dpv9U6fVh+i8vys1/97cRHK514jV5/PYZmYOrZrChBNsnUTSACTgbNhKZmliuOyeFPEZVIcawHmyH8PsX/tdE3NJ2NconMspSW8bYKh+fiYaP7KvMl8IHkD7zHPb/00aa0LO5aAG8i4ZRGZVGwkxUDGYe8dk",
+    "certFileName":  "Allianz_Cosi_Prod_Environment_Der_Pub (1).cer",
+    "destinationStore":  "computerCertStoreIntermediate"
+}
+

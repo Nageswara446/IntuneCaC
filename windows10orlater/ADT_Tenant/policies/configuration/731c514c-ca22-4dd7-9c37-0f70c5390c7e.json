@@ -1,0 +1,58 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-03-24T04:37:01.9266904Z",
+    "creationSource":  null,
+    "description":  "Deploys Edge Beta Channel Updates. This policy is required by the Windows Autopatch service.",
+    "lastModifiedDateTime":  "2025-11-28T07:18:44.1515603Z",
+    "name":  "Windows Autopatch Edge Update Policy - AVC-WIN-DW-WUR-Devices - Test-XLR2-2.0",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "settingCount":  2,
+    "technologies":  "mdm",
+    "id":  "731c514c-ca22-4dd7-9c37-0f70c5390c7e",
+    "templateReference":  {
+                              "templateId":  "",
+                              "templateFamily":  "none",
+                              "templateDisplayName":  null,
+                              "templateDisplayVersion":  null
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u0027731c514c-ca22-4dd7-9c37-0f70c5390c7e\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_controlpolicyconflict_mdmwinsovergp",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_controlpolicyconflict_mdmwinsovergp_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "1",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_updatev95~policy~cat_edgeupdate~cat_applications~cat_microsoftedge_pol_targetchannelmicrosoftedge_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

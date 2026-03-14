@@ -1,0 +1,4 @@
+﻿---------------- Start 2025-11-28 06:28:03 ----------------
+[2025-11-28 06:28:04Z] Copied policy: C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\configuration\0c13c086-87b5-4413-a8a8-5904e8de788c.json to C:\Testing\WPS_INTUNE_CaC\windows10orlater\PROD_Tenant\Prod\policies\backup\28-Nov-2025_06-28-03_Release541ae80c33ef43da85ff014061b3e8a4\configuration
+[2025-11-28 06:28:04Z] No assignments found for PolicyGuid=0c13c086-87b5-4413-a8a8-5904e8de788c
+---------------- End 2025-11-28 06:28:04 ----------------

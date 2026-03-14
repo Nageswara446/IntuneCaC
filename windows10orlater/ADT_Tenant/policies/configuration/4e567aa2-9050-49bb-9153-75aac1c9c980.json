@@ -1,0 +1,90 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(settings())/$entity",
+    "createdDateTime":  "2025-11-20T13:34:16.1551349Z",
+    "creationSource":  null,
+    "description":  "ADT exported policy ID 4e567aa2-9050-49bb-9153-75aac1c9c980 - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.734 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Releaseb6f804624c704f478a3b7684d93f9418. To rollback use - https://github.developer.allianz.io/WorkplaceServices/WPS_INTUNE_CaC/releases/download/Release-v1.0.733/456c28a2-3fb5-47f9-a03d-01f8c2f6acdb.json .\n\nADT exported policy ID 4e567aa2-9050-49bb-9153-75aac1c9c980 - and release path - https://github.developer.allianz.io/api/v3/repos/WorkplaceServices/WPS_INTUNE_CaC/releases/tags/Release-v1.0.732 . XL Release ID - Applications/Folderc5a98b750d6844819f72abee9ac74a45/Folder638e7ee1c54f4c388a13c39a63c8fe5b/Release715798273e8a42158cd376050751b445 .\n\n",
+    "lastModifiedDateTime":  "2025-11-21T04:52:42.2981839Z",
+    "name":  "CaC-TEST-XLR-WIN-D-DCP-Connectivity-Aditya",
+    "platforms":  "windows10",
+    "priorityMetaData":  null,
+    "roleScopeTagIds":  [
+                            "8"
+                        ],
+    "settingCount":  4,
+    "technologies":  "mdm",
+    "id":  "4e567aa2-9050-49bb-9153-75aac1c9c980",
+    "templateReference":  {
+                              "templateId":  "",
+                              "templateFamily":  "none",
+                              "templateDisplayName":  null,
+                              "templateDisplayVersion":  null
+                          },
+    "settings@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(\u00274e567aa2-9050-49bb-9153-75aac1c9c980\u0027)/settings",
+    "settings":  [
+                     {
+                         "id":  "0",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_bluetooth_allowdiscoverablemode",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_bluetooth_allowdiscoverablemode_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "1",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_camera_allowcamera",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_camera_allowcamera_1",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "2",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_cellular_letappsaccesscellulardata",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_cellular_letappsaccesscellulardata_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     },
+                     {
+                         "id":  "3",
+                         "settingInstance":  {
+                                                 "@odata.type":  "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+                                                 "settingDefinitionId":  "device_vendor_msft_policy_config_connectivity_allowusbconnection",
+                                                 "settingInstanceTemplateReference":  null,
+                                                 "auditRuleInformation":  null,
+                                                 "choiceSettingValue":  {
+                                                                            "settingValueTemplateReference":  null,
+                                                                            "value":  "device_vendor_msft_policy_config_connectivity_allowusbconnection_0",
+                                                                            "children":  [
+
+                                                                                         ]
+                                                                        }
+                                             }
+                     }
+                 ]
+}
+

@@ -1,0 +1,13 @@
+﻿{
+    "@odata.context":  "https://graph.microsoft.com/beta/$metadata#deviceManagement/groupPolicyConfigurations/$entity",
+    "createdDateTime":  "2025-08-07T09:15:13.5056381Z",
+    "displayName":  "AMC-WIN-DP-LenovoVantageAutoupdate-Ring0",
+    "description":  "Lenovo Vantage Auto update using the Azure Blob for Ring 0 devices.",
+    "roleScopeTagIds":  [
+                            "0"
+                        ],
+    "policyConfigurationIngestionType":  "unknown",
+    "id":  "71dbd4c5-aebe-40c9-95ce-2b7c24a2c901",
+    "lastModifiedDateTime":  "2025-08-07T09:15:13.5056381Z"
+}
+
